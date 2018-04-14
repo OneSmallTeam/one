@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/market/market",
+    "pages/index/index",    
+    "pages/person/person",    
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#4a6c8f",
+    "navigationBarTitleText": "ReadHub",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/index.png",
+        "selectedIconPath":"images/index.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人",
+        "iconPath": "images/person.jpg",
+        "selectedIconPath": "images/person.jpg"
+      }
+    ],
+    "color": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "selectedColor": "#4a6c8f"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

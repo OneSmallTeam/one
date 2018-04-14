@@ -1,0 +1,33 @@
+<!--pages/person/person.wxml-->
+<view id="outer">
+    <view class="top">
+      <view style="height: 30rpx; clear: both;"></view>             
+      <view class="img"><image src="{{personInfo.avatarUrl}}"></image></view>
+      <view class="nickName">{{personInfo.nickName}}</view>
+      <view style="height: 30rpx; clear: both;"></view> 
+    </view>
+
+    <view class="bottom">
+
+      <view class="站点市场" bindtap="market">
+        <view class="left"><image src="../../images/store.png"></image></view>
+        <view class="center">站点市场</view>
+        <view class="right"><image src="../../images/right-1.png"></image></view>
+      </view>
+      <view class="my">
+        <view class="left"><image src="../../images/collection.png"></image></view>
+        <view class="center">我的站点</view>
+        <view class="right"><image src="../../images/right-1.png"></image></view>
+      </view>
+      <view class="collection">
+        <view class="left"><image src="../../images/collection.png"></image></view>
+        <view class="center">我的收藏</view>
+        <view class="right"><image src="../../images/right-1.png"></image></view>
+      </view>
+      <view class="setting">
+        <view class="left"><image src="../../images/setting.png"></image></view>
+        <view class="center">设置</view>
+        <view class="right"><image src="../../images/right-1.png"></image></view>
+      </view>
+    </view> 
+</view>

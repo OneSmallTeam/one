@@ -1,0 +1,11 @@
+<view id="outer">
+  <view wx:for="{{articles}}" wx:key="" class="inner"> 
+    <view class="items" bindtap="toDetail" data-id="{{item.id}}">
+      <view class="title">{{item.title}}</view>
+      <!-- <view class="updateTime">{{item.}}</view> -->
+    </view>
+  </view>
+  <view style="width: 100%; margin: 0 auto;text-align:center;">
+  <image src="{{loading}}" style="width: 30rpx; height: 30rpx"></image>
+  </view>
+</view>

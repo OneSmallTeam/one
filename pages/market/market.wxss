@@ -1,0 +1,4 @@
+.c-state1{ 
+ transform: rotate(0deg) scale(1) translate(75%,0%);  
+ -webkit-transform: rotate(0deg) scale(1) translate(75%,0%);  
+}

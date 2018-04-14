@@ -1,0 +1,72 @@
+/* pages/person/person.wxss */
+page{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  background: #f0f0f0;
+}
+
+#outer{
+  width: 100%;
+  margin: 0px auto;
+  background: #f0f0f0;
+}
+ 
+#outer .top{
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  /* height: 300rpx; */
+}
+
+#outer .top .img{
+  width: 100%;
+  /* height: 150rpx; */
+  margin: 50rpx auto; 
+  text-align: center;
+}
+#outer .top image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+#outer .top .nickName{
+  width: 100%;
+  margin: 30rpx auto;
+  text-align: center;
+  font-size: 35rpx;
+  color: #888;
+}
+
+.bottom{
+  width: 100%;
+  margin: 20rpx auto 20rpx auto; 
+  background: #fff;
+  height: 530rpx; 
+} 
+
+#outer .bottom view{
+  margin: 20rpx auto;
+  float: left;
+  vertical-align: middle;
+}
+
+#outer .bottom view.left{
+  width: 100rpx;
+  text-align: center;
+}
+
+#outer .bottom view.center{
+  width: 480rpx;
+  text-align: left;
+}
+
+#outer .bottom view.right{
+  width: 170rpx;
+  text-align: right;
+}
+#outer view image{
+  width: 50rpx;
+  height: 50rpx;
+}

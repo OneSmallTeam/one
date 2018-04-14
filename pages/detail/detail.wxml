@@ -1,0 +1,14 @@
+<!--pages/detail/detail.wxml-->
+<view id="all">
+  <view class="inner">
+    <view class="title">{{articleDetail.title}}</view>
+
+    <view class="detail">{{articleDetail.content}}<image src="../../images/copy.png" bindtap="copy" data-url="{{articleDetail.url}}"></image></view>
+
+    <view class="updateTime">
+      {{date[0]==0?'':date[0]+'天'}}
+      {{date[1]==0?'':date[1]+'时'}}
+      {{date[2]==0?'':date[2]+'分前'}}
+    </view>
+  </view>
+</view>

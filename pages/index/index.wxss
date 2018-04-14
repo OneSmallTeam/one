@@ -1,0 +1,41 @@
+page{
+  width: 100%;
+  overflow: hidden;
+}
+
+#outer{
+  width: 100%;
+  margin: 0 auto;
+  background: #f0f0f0;
+  padding: 20rpx 0rpx;  
+}
+
+ #outer .inner{
+  width: 100%;
+  margin: 0px auto;
+  padding: 20rpx 0rpx;   
+} 
+
+#outer .inner .items{
+  width: 95%;  
+  margin: 0 auto;
+  background: #fff;
+  border: 1rpx solid #f0f0f0;
+  border-radius: 12rpx; 
+  padding: 20rpx 0rpx;  
+} 
+
+#outer .inner .items view.title{
+  width: 90%;
+  margin: 10rpx auto;
+  font-size: 42rpx;
+  color: #4a6c8f;
+}
+
+.items .updateTime{
+  color: #555;
+  width: 130rpx;
+  margin: 15rpx 20rpx 15rpx 500rpx;
+  font-size: 30rpx;
+}   
+
